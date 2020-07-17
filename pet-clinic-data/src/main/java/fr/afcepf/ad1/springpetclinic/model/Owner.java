@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Data
+@EqualsAndHashCode(exclude = "pets")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Owner extends Person {
