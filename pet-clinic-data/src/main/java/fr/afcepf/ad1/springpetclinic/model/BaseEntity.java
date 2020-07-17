@@ -9,6 +9,6 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public abstract class BaseEntity implements Serializable {
-    private long id;
+    private Long id;
 
 }
